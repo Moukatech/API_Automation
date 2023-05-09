@@ -1,26 +1,26 @@
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/Moukatech/API_Automation">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">API Test Automation</h3>
 
   <p align="center">
-    Test automation framework for rest APIS.
+    Test automation framework for REST APIS.
     <br />
   </p>
 </div>
 
 
 ## About The Project
-The purpose of this project is to showcase on how to create a test automation framwork to be used in testing REST APIs and generate a readable report.
+The purpose of this project is to showcase how to create a test automation framwork to be used in testing REST APIs and generate a readable report.
 
-### Built With
+### Built With:
 
-* Python 
-* Pytest
-* Allure for report creation.
+* Python.
+* Pytest.
+* Allure reporting template.
 
 ## Getting Started
 
@@ -54,11 +54,11 @@ These are instructions for a user with a mac device.
    pip install pipenv
    pipenv shell 
    ```
-4. Install required packages from the `requirements.txt` file:
+4. Install the required packages from the `requirements.txt` file:
    ```sh
    pip install -r requirements.txt
    ```
-5. To run the test:
+5. To run the tests:
    ```sh
    pytest --alluredir=allure_report/ tests/  
    ```
