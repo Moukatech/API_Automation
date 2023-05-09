@@ -14,7 +14,7 @@
 
 
 ## About The Project
-The purpose of this project is to showcase on how to create a test automation framwork to be used in testing api and generate a readable report.
+The purpose of this project is to showcase on how to create a test automation framwork to be used in testing REST APIs and generate a readable report.
 
 ### Built With
 
@@ -28,14 +28,14 @@ These are the steps to follow when you want to run the project locally.
 
 ### Prerequisites
 
-Items required be installed before you can start running the test.
+Items required to be installed before you can start running the tests.
 These are instructions for a user with a mac device.
 * Python
   ```sh
   brew install python
   ```
 * Allure
-```sh
+  ```sh
   brew install allure
   ```
 
@@ -48,29 +48,30 @@ These are instructions for a user with a mac device.
 2. Change directory to the cloned project:
    ```sh
     cd API_Automation
-    ```
-4. Install pipenv to create a virtual enviroments and activate it:
+   ```
+4. Install pipenv to create a virtual enviroment and activate it:
    ```sh
    pip install pipenv
    pipenv shell 
    ```
-4. Install required packages from the `requirement.txt` file:
+4. Install required packages from the `requirements.txt` file:
    ```sh
    pip install -r requirements.txt
    ```
-5. To run the test run:
+5. To run the test:
    ```sh
    pytest --alluredir=allure_report/ tests/  
    ```
 6. To be able to view the test results:
    ```sh
     allure serve allure_report/ 
-    ```
+   ```
 
- ## Example of how the final report should look like
- [![Allure report Screen Shot][Report_Screenshot]]
+ ## Example of how the final report should look like.
+ ![Allure report Screen Shot][Report_Screenshot]
  
- 
+ ## Contact
+ Lewis Mocha - lewismocha@gmail.com
  
  
  
