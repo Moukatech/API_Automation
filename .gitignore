@@ -1,0 +1,4 @@
+#ignore All log files.
+*.txt
+*.json
+!requirements.txt
