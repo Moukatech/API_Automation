@@ -18,6 +18,14 @@ def get_all_posts():
     return response
 
 
+def get_single_post(post_id):
+    url = f"{BASEURL}/v2/posts/{post_id}"
+
+    session = requests.session()
+    response = session.get(url, verify=True)
+
+    return response
+
 def create_new_post(user_id):
     
     url = f"{BASEURL}/v2/posts"

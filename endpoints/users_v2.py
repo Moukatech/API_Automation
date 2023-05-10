@@ -17,6 +17,12 @@ def get_all_users():
 
     return response
 
+def get_single_user(user_id):
+    url = f"{BASEURL}/v2/users/{user_id}"
+
+    response = requests.get(url, verify=True)
+
+    return response
 
 def create_new_user(email):
     gender = ["Male", "Female"]
